@@ -1,0 +1,22 @@
+{
+  "name": "ripple-dapp-skills",
+  "version": "1.0.0",
+  "description": "AI-Augmented Web3 Development Tool using XRPL",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "xrpl": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["xrpl", "web3", "ai", "dapp"],
+  "author": "",
+  "license": "ISC"
+}

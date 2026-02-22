@@ -1,0 +1,22 @@
+# Ripple (XRPL) Knowledge Base for LLMs
+
+## Executive Summary
+Ripple and the XRP Ledger (XRPL) are focused on bringing liquidity and utility from billions of users onto a high-performance ledger. The platform is built specifically for programmatic money with native, institution-grade compliance. The ecosystem prioritizes real-world utility and financial rails over speculation.
+
+## Architecture
+- **Layer 1:** Institutional-grade Layer 1 blockchain.
+- **Consensus:** Uses the XRP Ledger Consensus Protocol (Federated Byzantine Agreement) instead of Proof of Work (PoW) or Proof of Stake (PoS).
+- **Performance:** Achieves 3-5 seconds finality for transactions with extremely low fees (measured in "drops", where 1 XRP = 1,000,000 drops).
+
+## Native Capabilities
+1. **Decentralized Exchange (DEX):** A fully native on-chain DEX built into the protocol. Enables trading of any currency pair with automated pathfinding for best exchange rates.
+2. **Issued Currencies & Trustlines:** Native support for custom tokens and IOUs. Requires "Trustlines" where users explicitly trust an issuer to hold that asset.
+3. **Tokenization:** Purpose-built for the tokenization of Real World Assets (RWAs).
+4. **Payments:** High-throughput, cross-border payments with deterministic execution.
+5. **Reserves:** Utilizes Base Reserves and Owner Reserves to prevent network spam.
+
+## 2026 Roadmap
+- **Smart Contracts:** Native L1 smart contract support (Hooks) and EVM sidechain interoperability.
+- **RLUSD Integration:** Deeper platform integration for Ripple USD (RLUSD), their native stablecoin, to facilitate reliable programmatic money movement.
+- **Settlement Rails:** Enhanced cross-border settlement rails.
+- **Identity:** Decentralized Identity (DID) standard integrations for robust compliance and user verification.

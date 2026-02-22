@@ -25,18 +25,14 @@ When starting a new XRPL project:
 
 ## Project Scaffolding
 
-### Recommended Structure
-
-```
-my-xrpl-dapp/
-├── src/
-│   ├── index.ts               # Entry point
-│   ├── utils/                 # Client connection helpers
-│   └── scripts/               # Transaction scripts (mint, offer, payment)
-├── test/
-├── package.json
-└── tsconfig.json
-```
+- **.context/**: The brain of the project. Contains files like `active_state.md`, `project_architecture.md`, and `agent_skills.md`.
+- **llms.txt**: The master document summarizing Ripple's capabilities, architecture, and roadmap for AI ingestion.
+- **demo.md**: A runnable quick start guide demonstrating core capabilities via the `XRPLService`.
+- **src/**: Core TS implementations following SOLID principles.
+  - `interfaces/IXRPLService.ts`
+  - `services/XRPLService.ts`
+  - `index.ts`
+- **references/**: Legacy or standard reference documentation.
 
 ### Bootstrap steps
 
@@ -100,4 +96,3 @@ console.log("Transaction result:", result.result.meta.TransactionResult);
 -   `references/xrpl-concepts.md` — Core concepts (Drops, Reserves, Context).
 -   `references/xrpl-javascript-sdk.md` — Usage guide for `xrpl.js`.
 -   `references/xrpl-setup.md` — Environment setup.
-
